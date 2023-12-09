@@ -1,0 +1,15 @@
+source,target,value
+treatments,bars,1
+treatments,length-25,1
+treatments,d,1
+treatments,colored,1
+treatments,coordinate,1
+treatments,accuracy,1
+bars,d,1
+bars,top,1
+bars,middle,1
+length-25,orange,1
+length-25,dc,1
+length-25,rectangular,1
+d,top,1
+d,bottom,1

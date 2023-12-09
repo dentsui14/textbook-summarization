@@ -1,0 +1,15 @@
+source,target,value
+spectrograms,'to,1
+spectrograms,illustration,1
+spectrograms,parsevals,1
+spectrograms,links,1
+spectrograms,'summary,1
+spectrograms,'this,1
+'to,links,1
+'to,parsevals,1
+illustration,parsevals,1
+illustration,hundreds,1
+links,pez,1
+'summary,'this,1
+'summary,'now,1
+'this,'if,1
