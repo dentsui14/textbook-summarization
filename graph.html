@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+<style>
+
+html {margin: 0; padding: 0}
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.graph {
+  flex: 1;
+}
+
+.panel {
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h2, p {
+  margin: 5px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+</style>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="graph">
+
+    </div>
+    <div class="panel">
+      <div class="info">
+        <h2>Summary:</h2>
+        <p class="summary"></p>
+        <br>
+        <h2>Keywords:</h2>
+        <div class="keywords"></div>
+        <br>
+        <!--
+        <h2>Similar Chapters:</h2>
+        <div class="similar"></div>
+        -->
+        <h2>Network for "Sinusoids":</h2>
+        <div class="wordgraph"></div>
+      </div>
+    </div>
+  </div>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.0.0/d3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="./graph.js"></script>
+<script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
+</body>
